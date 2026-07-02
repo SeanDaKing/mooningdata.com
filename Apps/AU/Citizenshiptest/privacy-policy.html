@@ -15,8 +15,9 @@ a { color:var(--blue); text-decoration:none; }
 .nav { display:flex; align-items:center; justify-content:space-between; height:66px; }
 .brand { font-size:22px; font-weight:700; color:var(--ink); letter-spacing:-0.3px; }
 .brand span { color:var(--blue); }
-.nav a.home { color:var(--muted); font-size:15px; font-weight:500; }
-.nav a.home:hover { color:var(--ink); }
+.nav-links { display:flex; gap:22px; align-items:center; }
+.nav-links a { color:var(--muted); font-size:15px; font-weight:500; }
+.nav-links a:hover { color:var(--ink); }
 .page { padding:56px 0 72px; }
 h1 { font-size:34px; letter-spacing:-0.8px; margin:0 0 8px; }
 .sub { color:var(--muted); font-size:15px; margin:0 0 8px; }
@@ -33,7 +34,11 @@ ul { padding-left:22px; }
 <header class="site-header">
 <div class="wrap nav">
 <div class="brand">Mooning<span>Data</span></div>
-<a class="home" href="/">Home</a>
+<nav class="nav-links">
+<a href="/Apps/AU/Citizenshiptest/info">Home</a>
+<a href="/Apps/AU/Citizenshiptest/support">Support</a>
+<a href="/Apps/AU/Citizenshiptest/privacy-policy">Privacy</a>
+</nav>
 </div>
 </header>
 
